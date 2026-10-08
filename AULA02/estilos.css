@@ -5,8 +5,8 @@ body{
 }
 
 h1{
-    color: blue;
-    background-color: white;
+    color: gold;
+    background-color:blue;
     text-align: center;
 margin:0;
 padding:20px;
@@ -24,4 +24,37 @@ padding:20px;
     color:darkorchid;
 font-weight: bold;
 text-decoration: underline;
+}
+.exemplo1
+{border:1px solid#960000;
+    border-radius: 10px;
+    margin: 10px;
+    padding:10px; 
+}
+
+.centralizado
+{
+    display:flex;
+    justify-content: center;
+}
+
+.inicio
+{display: flex;
+    justify-content: center;
+
+}
+
+.fim{
+    display: flex;
+    justify-content:flex-end;
+}
+
+.around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.between{
+    display: flex;
+    justify-content:space-between;
 }
