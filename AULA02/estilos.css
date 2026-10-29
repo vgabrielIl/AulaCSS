@@ -105,6 +105,40 @@ color:gold;
 
 width:  100px;
 height: 50px;
+
+display:flex;
+justify-content: center;
+align-items: center;
 }
 
 
+
+
+.exercicio7{
+    height: 100vh;
+}
+
+.linha{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu
+{
+display:flex;
+height: 50px;
+
+background-color: blue;
+color:gold;
+font-size: 25px;
+
+justify-content: space-around;
+}
+
+
+
+.opcoes{
+    display:flex;
+}
